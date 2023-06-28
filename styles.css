@@ -14,7 +14,17 @@ a{
 li{
     list-style-type: none;
 }
-
+.title{
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
 .row{
     width: 100%;
     max-width: 1200px;
@@ -68,4 +78,12 @@ nav{
     margin:0 1.5rem 0 1.5rem;
     color: #243e63;
 }
+
+/* TREACT INFO */
+
+.treact__info--img{
+    width: 100%;
+    max-width: 32rem;
+}
+
 
